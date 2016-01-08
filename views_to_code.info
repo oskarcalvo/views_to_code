@@ -1,0 +1,9 @@
+name = Views to code
+descriptin = This module let you to export your views to code and store in a file without use features.
+package = Views
+core = 7.x
+php = 5.3
+
+;dependencies[]
+;files[]=
+
