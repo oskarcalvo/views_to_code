@@ -12,6 +12,7 @@ function views_to_code_views_default_views() {
 
   $dir = DRUPAL_ROOT . '/' . drupal_get_path('module','views_to_code') . '/views';
 
+  $views = [];
   if (is_dir($dir)) {
     foreach (file_scan_directory($dir,'/\.inc$/') as $filepath => $file) {
     
